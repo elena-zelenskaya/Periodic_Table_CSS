@@ -1,0 +1,96 @@
+/* Reset */
+* {  
+	vertical-align: baseline;  
+	font-family: inherit;  
+	font-style: inherit;  
+	font-size: 100%;  
+	border: none;  
+	padding: 0;  
+	margin: 0;  
+	}  
+body {  
+	padding: 5px;  
+	} 
+
+/* My styles */
+.container {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    width:946px;
+    margin: 0 auto;
+    background-color: #eeeeee;
+    padding: 0 15px 10px;
+}
+
+.cell {
+    width:45px;
+    height:45px;
+    border:1px solid #808080;
+    display:inline-block;
+    text-align: center;
+    margin-left:2px;
+    margin-bottom:1px;
+    position: relative;
+    line-height:16px;
+}
+
+.number {
+    color:red;
+    line-height: 45px;
+    font-size: 12px;
+    border: 1px solid #eeeeee;
+}
+
+.title {
+    color:red;
+    font-size: 11px;
+    border: 1px solid #eeeeee;
+}
+
+.title p {
+    position:absolute;
+    top:8px;
+}
+
+.blue {
+    background-color: #689bff;
+}
+
+.yellow {
+    background: #fecb00;
+}
+
+.pink {
+    background: #fd9a98;
+}
+
+.green {
+    background: #1fca21;
+}
+.element {
+    color: #1913a2;
+    font-size:16px;
+    font-weight: bold;
+}
+.min {
+    font-size:10px;
+}
+
+.bigger-margin-right {
+    margin-right: 15px;
+}
+
+.bigger-margin-bottom {
+    margin-bottom: 25px;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.asterisk {
+    right:-15px;
+}
